@@ -1,20 +1,20 @@
 ---
 id: dropdown
 layout: page
-title: group
+title: 团队
 nav: true
 nav_order: 2
 dropdown: true
 children:
-  - title: Academic Staff
+  - title: 教师
     permalink: /academic-staff/
   - title: divider
-  - title: Administrative Staff
+  - title: 行政老师
     permalink: /administrative-staff/
   - title: divider
-  - title: Technical Staff
+  - title: 技术人员
     permalink: /technical-staff/
   - title: divider
-  - title: students
+  - title: 学生
     permalink: /students/
 ---
