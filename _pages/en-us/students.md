@@ -2,8 +2,8 @@
 page_id: students
 layout: profiles
 permalink: /students/
-title: students
-description: students in the group.
+title: Students
+description:
 nav: false
 nav_order: 3
 

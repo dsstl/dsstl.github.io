@@ -15,6 +15,6 @@ children:
   - title: Technical Staff
     permalink: /technical-staff/
   - title: divider
-  - title: students
+  - title: Students
     permalink: /students/
 ---
