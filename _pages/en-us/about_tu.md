@@ -1,3 +1,0 @@
-**Wenqiang Tu**
-
-Research Assistant
