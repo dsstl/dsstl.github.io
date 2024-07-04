@@ -1,3 +1,0 @@
-**Mingyang Di**
-
-Administrative Staff

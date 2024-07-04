@@ -1,3 +1,0 @@
-**Ruoqing Fan**
-
-Administrative Staff

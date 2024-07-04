@@ -1,3 +1,0 @@
-**Chenhua Shen**
-
-Research Assistant
