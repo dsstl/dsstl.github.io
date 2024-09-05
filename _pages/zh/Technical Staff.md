@@ -15,9 +15,4 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: 
 
-  - align: left
-    image: shenchenhua.jpg
-    content: about_shen.md
-    image_circular: false # crops the image to make it circular
-    more_info: 
 ---
