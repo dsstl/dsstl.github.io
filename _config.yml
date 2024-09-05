@@ -2,17 +2,17 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+title: DSSTL  # the website title (if blank, full name will be used instead)
+first_name: 
+middle_name: 
+last_name: DSSTL
 email: you@example.com
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: # add your own keywords or leave empty
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://dsstl.github.io # the base hostname & protocol for your site
-baseurl: 
-last_updated: false # set to true if you want to display last updated in the footer
+baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
+last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
 
@@ -43,8 +43,7 @@ rss_icon: true
 navbar_fixed: true
 footer_fixed: true
 search_enabled: true
-socials_in_search: true
-bib_search: true
+socials_in_search: false
 
 # Dimensions
 max_width: 1000px
@@ -74,7 +73,6 @@ flickr_id: # your flickr id
 github_username: # your GitHub user name
 gitlab_username: # your GitLab user name
 ieee_id: # your ieeexplore.ieee.org/author/id
-inspirehep_id: 1010907 # Inspire HEP author ID
 instagram_id: # your instagram id
 kaggle_id: # your kaggle id
 keybase_username: # your keybase user name
@@ -138,7 +136,7 @@ related_blog_posts:
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
 giscus:
-  repo: # <your-github-user-name>/<your-github-repo-name>
+  repo: george-gca/multi-language-al-folio # <your-github-user-name>/<your-github-repo-name>
   repo_id: R_kgDOI6hBvA # leave empty or specify your repo_id (see https://giscus.app/)
   category: Comments # name of the category under which discussions will be created
   category_id: DIC_kwDOI6hBvM4CYHn3 # leave empty or specify your category_id (see https://giscus.app/)
@@ -165,15 +163,6 @@ external_sources:
         published_date: 2024-05-14
 
 # -----------------------------------------------------------------------------
-# Newsletter
-# -----------------------------------------------------------------------------
-
-newsletter:
-  enabled: false
-  endpoint: # your loops endpoint (e.g., https://app.loops.so/api/newsletter-form/YOUR-ENDPOINT)
-  # https://loops.so/docs/forms/custom-form
-
-# -----------------------------------------------------------------------------
 # Collections
 # -----------------------------------------------------------------------------
 
@@ -193,7 +182,7 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 
@@ -232,7 +221,7 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/en-us/about_einstein.md
-  - _pages/pt-br/about_einstein.md
+  - _pages/zh/about_einstein.md
   - purgecss.config.js
   - README.md
   - readme_preview/
@@ -254,7 +243,6 @@ plugins:
   - jekyll-minifier
   - jekyll-paginate-v2
   - jekyll-polyglot
-  - jekyll-regex-replace
   - jekyll/scholar
   - jekyll-sitemap
   - jekyll-tabs
@@ -330,12 +318,10 @@ scholar:
   group_order: descending
 
 # Display different badges withs stats for your publications
-# Customize badge behavior in _layouts/bib.liquid
 enable_publication_badges:
-  altmetric: true # Altmetric badge (Customization options: https://badge-docs.altmetric.com/index.html)
-  dimensions: true # Dimensions badge (Customization options: https://badge.dimensions.ai/)
+  altmetric: true # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
+  dimensions: true # Dimensions badge (https://badge.dimensions.ai/)
   google_scholar: true # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
-  inspirehep: true # Inspire HEP badge (https://help.inspirehep.net/knowledge-base/citation-metrics/)
 
 # Filter out certain bibtex entry keywords used internally from the bib output
 filtered_bibtex_keywords:
@@ -344,16 +330,13 @@ filtered_bibtex_keywords:
     abstract,
     additional_info,
     altmetric,
-    annotation,
     arxiv,
     award,
     award_name,
     bibtex_show,
     blog,
     code,
-    google_scholar_id,
     html,
-    inspirehep_id,
     pdf,
     poster,
     preview,
@@ -386,7 +369,7 @@ external_links:
 # Jekyll Polyglot
 # -----------------------------------------------------------------------------
 
-languages: ["en-us", "pt-br"]
+languages: ["en-us", "zh"]
 default_lang: "en-us"
 exclude_from_localization: ["assets"]
 lang_from_path: true
@@ -540,13 +523,13 @@ third_party_libraries:
     version: "1.9.4"
   mathjax:
     integrity:
-      js: "sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="
+      js: "sha256-rjmgmaB99riUNcdlrDtcAiwtLIojSxNyUFdl+Qh+rB4="
     local:
       fonts: "output/chtml/fonts/woff-v2/"
     url:
       fonts: "https://cdn.jsdelivr.net/npm/mathjax@{{version}}/es5/output/chtml/fonts/woff-v2/"
-      js: "https://cdn.jsdelivr.net/npm/mathjax@{{version}}/es5/tex-mml-chtml.js"
-    version: "3.2.2"
+      js: "https://cdn.jsdelivr.net/npm/mathjax@{{version}}/es5/tex-mml-chtml.min.js"
+    version: "3.2.0"
   masonry:
     integrity:
       js: "sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI="
@@ -637,8 +620,8 @@ third_party_libraries:
 jekyll_get_json:
   - data: resume_en-us
     json: assets/json/resume_en-us.json # it can also be an url
-  - data: resume_pt-br
-    json: assets/json/resume_pt-br.json # it can also be an url
+  - data: resume_zh
+    json: assets/json/resume_zh.json # it can also be an url
 jsonresume:
   - basics
   - work

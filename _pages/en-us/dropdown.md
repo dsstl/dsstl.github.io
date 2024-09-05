@@ -1,17 +1,20 @@
 ---
 id: dropdown
 layout: page
-title: submenus
+title: group
 nav: true
-nav_order: 8
+nav_order: 2
 dropdown: true
 children:
-  - title: publications
-    permalink: /publications/
+  - title: Academic Staff
+    permalink: /academic-staff/
   - title: divider
-  - title: projects
-    permalink: /projects/
+  - title: Administrative Staff
+    permalink: /administrative-staff/
   - title: divider
-  - title: blog
-    permalink: /blog/
+  - title: Technical Staff
+    permalink: /technical-staff/
+  - title: divider
+  - title: Students
+    permalink: /students/
 ---
