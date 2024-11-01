@@ -33,4 +33,10 @@ profiles:
     content: about_yu.md
     image_circular: false # crops the image to make it circular
     more_info: 
+
+  - align: left
+    image: daimingzhi.jpg
+    content: about_daimingzhi.md
+    image_circular: false # crops the image to make it circular
+    more_info: 
 ---
