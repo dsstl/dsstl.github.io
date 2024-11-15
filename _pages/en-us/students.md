@@ -67,6 +67,30 @@ profiles:
     more_info: 
 
   - align: left
+    image: zhoushan.jpg
+    content: about_zhoushan.md
+    image_circular: false # crops the image to make it circular
+    more_info: 
+
+  - align: left
+    image: qiaoyi.jpg
+    content: about_qiaoyi.md
+    image_circular: false # crops the image to make it circular
+    more_info: 
+
+  - align: left
+    image: yiming.jpg
+    content: about_yiming.md
+    image_circular: false # crops the image to make it circular
+    more_info: 
+
+  - align: left
+    image: mengchaoqun.jpg
+    content: about_mengchaoqun.md
+    image_circular: false # crops the image to make it circular
+    more_info: 
+
+  - align: left
     image: chenzheng.jpg
     content: about_chenzheng.md
     image_circular: false # crops the image to make it circular
@@ -109,14 +133,26 @@ profiles:
     more_info: 
 
   - align: left
+    image: liuzicheng.jpg
+    content: about_liuzicheng.md
+    image_circular: false # crops the image to make it circular
+    more_info: 
+  - align: left
+    image: jiangtianyu.jpg
+    content: about_jiangtianyu.md
+    image_circular: false # crops the image to make it circular
+    more_info: 
+
+  - align: left
     image: wangzhichao.jpg
     content: about_wangzhichao.md
     image_circular: false # crops the image to make it circular
     more_info: 
 
   - align: left
-    image: zhoushan.jpg
-    content: about_zhoushan.md
+    image: wangping.jpg
+    content: about_wangping.md
     image_circular: false # crops the image to make it circular
     more_info: 
+
 ---
