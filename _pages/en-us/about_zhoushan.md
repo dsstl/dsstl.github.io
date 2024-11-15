@@ -1,6 +1,7 @@
 **Shan Zhou**
 
-undergraduate student
+PHD student
 
-Email: 905037914@qq.com
+Email: 02441391@sjtu.edu.cn
 
+Research interests: undetermined
