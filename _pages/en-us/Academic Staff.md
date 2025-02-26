@@ -17,6 +17,12 @@ profiles:
     more_info: 
 
   - align: left
+    image: chenxin_pic.jpg
+    content: about_chenxin.md
+    image_circular: false # crops the image to make it circular
+    more_info: 
+
+  - align: left
     image: zhang_pic.jpg
     content: about_zhang.md
     image_circular: false # crops the image to make it circular
@@ -59,10 +65,8 @@ profiles:
     more_info: 
 
   - align: left
-    image: wangbaoxiang.jpg
-    content: about_wangbaoxiang.md
+    image: gechao.jpg
+    content: about_gechao.md
     image_circular: false # crops the image to make it circular
     more_info: 
-
-
 ---
