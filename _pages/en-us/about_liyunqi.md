@@ -1,3 +1,0 @@
-**Yunqi Li**
-
-Research Assistant

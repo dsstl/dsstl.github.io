@@ -14,9 +14,5 @@ profiles:
     content: about_di.md
     image_circular: false # crops the image to make it circular
     more_info: 
-  - align: left
-    image: tangli.jpg
-    content: about_tangli.md
-    image_circular: false # crops the image to make it circular
-    more_info: 
+
 ---
